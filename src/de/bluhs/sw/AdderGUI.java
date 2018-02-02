@@ -9,14 +9,14 @@ import java.awt.*;
  * Date: 02.02.2018
  * Time: 11:17
  */
-public class AdderGUI {
+class AdderGUI {
 
-    private JTextField textFirst;
-    private JTextField textSecond;
-    private JTextField textResult;
-    private JLabel labelMsg;
+    private final JTextField textFirst;
+    private final JTextField textSecond;
+    private final JTextField textResult;
+    private final JLabel labelMsg;
 
-    private JPanel myPanel;
+    private final JPanel myPanel;
 
 
     public AdderGUI() {

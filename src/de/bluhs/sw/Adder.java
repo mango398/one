@@ -6,7 +6,7 @@ package de.bluhs.sw;
  * Date: 02.02.2018
  * Time: 11:15
  */
-public class Adder {
+class Adder {
     public static int addIntegers(int i, int j){
         return i+j;
     }
